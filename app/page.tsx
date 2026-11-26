@@ -283,7 +283,7 @@ function BathModal({ bath, onClose }: { bath: any; onClose: () => void }) {
                         const text = `🔥 Новая заявка с сайта!\n\n👤 Клиент: ${clientName}\n📞 Телефон: ${clientPhone}\n\n🏠 Баня: ${bath.name} (${bath.size})\n💰 Итого: ${formatPrice(calculateTotal())}\n\n✅ Опции:\n${selectedNames || "Только базовые опции"}`;
                         
                         // ВАШИ ДАННЫЕ ВК
-                        const VK_TOKEN = "vk1.a.-XdZa3_lveUDl8HBizBeiSSyN2jZebOqzfVqM_erOnYDsuC6Ik1nUHgHyWVaqL2On9ixCoF__uwRrtK6304IGjAvC_yYpq6dq6HBu1fJHIAeQyK58b83uLLsvSqMsCSOtbcly8eaJp6QUp7ebj8psM0tMIQM6W3Rq6HSW8AWNDPEt5cKKZbh_etzXm-w36rgFODzsYV5sIES6MMalnXeUA"; 
+                        const VK_TOKEN = "vk1.a.w0yYJzcsWNlxiVvbqW82Uij6YJoXRA0gfgSHGz8-QkOS7jeDFPf2rWYwdNPz08V4xnaBK5X3uxcR2iD8QapffuE_GClhxEWr70WFkMChK0dFS74x0fSFQn4IhIvkkc4NRaTHvl2KQIcLKZjaFXxgHSVe4Hd7d2N5XaFlNqOme_iWyWZ15zoUZk-I8frawCUYY3sr7ovoW-c-teb8Uv7okw"; 
                         const VK_PEER_ID = "70304896"; 
                         const VK_GROUP_ID = "210565647"; 
 
